@@ -1,0 +1,14 @@
+user:
+  email_max: 255
+  pass_min: 6
+  name_max: 50
+gravatar:
+  size: 80
+  users_index_size: 50
+  follow: 30
+remembered: 1
+password_expiration: 2
+micropost:
+  content_min: 170
+upload_picture_size: 5
+picture_accept: "image/jpeg,image/gif,image/png"

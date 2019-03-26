@@ -1,0 +1,179 @@
+en:
+  micropost_upload_alert: "Maximum file size is 5MB. Please choose a smaller file."
+  login_link: "Log in"
+  titlecontent: "Ruby on Rails Tutorial Sample App"
+  upload_size_error: "should be less than 5MB"
+  shared:
+    error_messages:
+      content1: "The form contains"
+      content2: "error"
+    user_info:
+      link_profile: "view my profile"
+      count_microposts: "micropost"
+    micropost_form:
+      text_placeholder: "Compose new micropost..."
+      submit: "Post"
+    stats:
+      content1: "following"
+      content2: "followers"
+  microposts:
+    create:
+      flash_success: "Micropost created"
+    destroy:
+      flash_success: "Micropost deleted"
+      flash_danger: "Deleting error"
+    micropost:
+      content1: "Posted"
+      content2: "ago."
+      link_delete: "delete"
+      delete_confirm: "You sure?"
+  relationships:
+    create:
+      flash_danger: "User not found"
+    destroy:
+      flash_danger: "User not found"
+  sessions:
+    new:
+      header: "Log in"
+      lb_email: "Email"
+      lb_password: "Password"
+      lb_checkbox: "Remember me on this computer"
+      forgot_link: "(forgot password)"
+      submit_btn: "Log in"
+      content1: "New user?"
+      link1: "Sign up now!"
+    create:
+      flash_danger: "Invalid email/password combination"
+      msg_content: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      header: "Sample App"
+      subject_content: "Account activation"
+      greeting: "Hi %{username}"
+      content1: "Welcome to the Sample App! Click on the link below to activate your"
+      content2: "account:"
+      active_link: "Activate"
+    password_reset:
+      content1: "To reset your password click the link below:"
+      content2: "This link will expire in two hours."
+      content3: "If you did not request your password to be reset, please ignore this email
+      and your password will stay as it is."
+      subject_content: "Password reset"
+      link_reset: "Reset password"
+  password_resets:
+    new:
+      title: "Forgot password"
+      lb_email: "Email"
+      submit: "Submit"
+    create:
+      flash_info: "Email sent with password reset instructions"
+      flash_danger: "Email address not found"
+    edit:
+      title: "Reset password"
+      lb_password: "Password"
+      lb_confirm: "Confirmation"
+      submit: "Update password"
+    update:
+      empty_pass: "can't be empty"
+      flash_success: "Password has been reset."
+    load_user:
+      flash_danger: "Email address not found"
+    valid_user:
+      flash_danger: "Email invalid"
+    check_expiration:
+      flash_danger: "Password reset has expired."
+  account_activations:
+    edit:
+      flash_success: "Account activated!"
+      flash_danger: "Invalid activation link"
+  users:
+    index:
+      title: "All users"
+    user:
+      confirm_delete: "You sure?"
+      link_delete: "delete"
+    create:
+      flash_info: "Please check your email to activate your account."
+    new:
+      title: "Sign up"
+      submit: "Create my account"
+    edit:
+      title: "Edit user"
+      link_gravatar: "change"
+      header: "Update your profile"
+      submit: "Save changes"
+    update:
+      flash_success: "Profile updated"
+    destroy:
+      flash_success: "User deleted"
+      flash_danger: "Can't delete user"
+    logged_in_user:
+      flash_danger: "Please log in."
+    show:
+      content1: "Microposts (%{size})"
+      flash_warning: "User not found!"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    show_follow:
+      link_profile: "view my profile"
+      content1: "Microposts:"
+    form:
+      lb_name: "Name"
+      lb_email: "Email"
+      lb_pass: "Password"
+      lb_pass_confirm: "Confirmation"
+    load_user:
+      flash_danger: "User not found!"
+    follow:
+      submit: "Follow"
+  layouts:
+    header:
+      logo: "sample app"
+      link_home: "Home"
+      link_help: "Help"
+      link_users: "Users"
+      drop_account: "Account"
+      link_profile: "Profile"
+      link_settings: "Setting"
+      link_logout: "Log out"
+      link_login: "Log in"
+    footer:
+      content1: "The"
+      link1: "Ruby on Rails Tutorial"
+      content2: "by"
+      link2: "Michael Hartl"
+      link3: "About"
+      link4: "Contact"
+      link5: "News"
+  static_pages:
+    home:
+      header1: "Welcome to the Sample App"
+      header3: "Micropost Feed"
+      content1: "This is the home page for the"
+      link1: "Ruby on Rails Tutorial"
+      content2: "sample application."
+      button1: "Sign up now!"
+      img_alt1: "Rails logo"
+    help:
+      title: "Help"
+      content1: "Get help on the Ruby on Rails Tutorial at the"
+      link1: "Rails Tutorial help section"
+      content2: "To get help on this sample app, see the"
+      link2: "Ruby on Rails Tutorial"
+    about:
+      title: "About"
+      content1: "The "
+      link1: "About"
+      content2: " is a"
+      link2: "book"
+      content3: " and"
+      link3: "screencast series"
+      content4: "to teach web development with"
+      link4: "Ruby on Rails"
+      content5: "  This is the sample application for the tutorial."
+    contact:
+      title: "Contact"
+      content1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      link1 : "contact page"
